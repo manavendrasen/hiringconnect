@@ -1,0 +1,16 @@
+import { Header } from "@/components/layout/header"
+
+export function AdminView() {
+  return (
+    <div className="flex flex-col min-h-screen">
+      <Header title="Admin View" showCreateButton={false} />
+
+      <main className="flex-1 p-6">
+        <div className="text-center py-12">
+          <h2 className="text-2xl font-semibold mb-4">Admin View</h2>
+          <p className="text-muted-foreground">This view is under development.</p>
+        </div>
+      </main>
+    </div>
+  )
+}
